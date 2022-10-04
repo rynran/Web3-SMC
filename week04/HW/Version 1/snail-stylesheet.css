@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Oswald', sans-serif;;
+    font-size: var(--bs-body-font-size);
+    font-weight:300;
+    line-height: var(--bs-body-line-height);
+    background-color: #f0e0d6;
+    text-align: var(--bs-body-text-align);
+}
+#wiki-img{
+    width: 45px;
+}
+
+#hero-img{
+    background-image: url(https://cff2.earth.com/uploads/2020/09/07142214/shutterstock_17691505102.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 47vw;
+}
+#hero-title{
+    font-family: 'Lobster Two', cursive;
+}
+#see-cards h3, h4{
+    font-family: 'Lobster Two', cursive;
+}
+.bg-light {
+    
+    background-color: #f0e0d6 !important;
+  }
+.bg-info {
+    background-color: #a5b6d8 !important;
+  }
+.text-dark {
+    color: #313b62 !important;
+  }
+.text-success {
+    color: #f0e0d6 !important;
+}
+.card {
+    background-color: #a5b6d8;
+    border: 1px solid rgba(0,0,0,.125);
+  }
+.card-title{
+    color: #313b62;
+}
+.card-text{
+    color: #313b62;
+}
+.btn-primary {
+    color: #f0e0d6;
+    background-color: #313b62;
+    border-color: #313b62;
+}
+.btn-primary:hover {
+    color: #313b62;
+    background-color: #f0e0d6;
+    border-color: #f0e0d6;
+  }
+  
