@@ -1,0 +1,65 @@
+body{
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#hero-img{
+    background-image: url(https://cff2.earth.com/uploads/2020/09/07142214/shutterstock_17691505102.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 47vw;
+}
+#wiki-img{
+    width: 45px;
+}
+#hero-title{
+    font-family: 'Comfortaa', cursive;
+}
+#see-cards h3,h5,h6{
+    font-family: 'Comfortaa', cursive;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #283618;
+  }
+.bg-secondary{
+    background-color: #7ba57d !important;
+  }
+.bg-primary {
+    background-color: #9cbfa7 !important;
+  }
+.bg-warning {
+    background-color: #BC6C25 !important;
+}
+#hero-text{
+    color: #BC6C25;
+}
+#hero-text h4, a{
+    color: #7ba57d;
+}
+#hero-text a:hover{
+    color: #283618;
+}
+#see-also h3{
+    color: #FEFAE0;
+}
+.card {
+    background-color: #86b28f;
+    border: 1px solid #c77d4c;
+  }
+.card-title{
+    color: #FEFAE0;
+}
+.card-text{
+    color: #283618;
+}
+.btn-primary {
+    color: #FEFAE0;
+    background-color: #283618;
+    border-color: #283618;
+}
+.btn-primary:hover {
+    color: #283618;
+    background-color: #FEFAE0;
+    border-color: #FEFAE0;
+  }
