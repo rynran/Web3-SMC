@@ -1,0 +1,67 @@
+#wiki-img{
+    width: 45px;
+}
+#hero-img{
+    background-image: url(https://cff2.earth.com/uploads/2020/09/07142214/shutterstock_17691505102-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 47vw;
+}
+.mt-5 {
+    margin-top: 15rem !important;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f9efd1;
+}
+#hero-title{
+    font-family: 'Courgette', cursive;
+}
+#see-cards h3,h4,h5,h6{
+    font-family: 'Courgette', cursive;
+}
+.bg-primary{
+    background-color: #87330a !important;
+}
+.bg-warning{
+    background-color: #f9efd1 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f9efd1;
+  }
+#hero-text{
+    color: #87330a;
+}
+#hero-text a{
+    color: #6b4c26;
+}
+#hero-text a:hover{
+    color: #130c07;
+}
+#hero-subtitle{
+    color: #6b4c26;
+}
+#see-also h3{
+    color: #130c07;
+}
+.card {
+    background-color: #87330a;
+    border: 1px solid #c77d4c;
+  }
+.card-title{
+    color: #f9efd1;
+}
+.card-text{
+    color: #130c07;
+}
+.btn-primary {
+    color: #f9efd1;
+    background-color: #ecb42c;
+    border-color: #ecb42c;
+}
+.btn-primary:hover {
+    color: #ecb42c;
+    background-color: #f9efd1;
+    border-color: #f9efd1;
+  }

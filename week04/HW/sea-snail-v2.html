@@ -8,87 +8,95 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Oswald:wght@300;500&display=swap" rel="stylesheet"> 
+    <!--Google + Adobe Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap">
+
+    <link rel="stylesheet" href="https://use.typekit.net/alj5lff.css">
+
+    <!--Stylesheet-->
     
-    <link rel="stylesheet" href="snail-stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="snail-v2-stylesheet.css" type="text/css">
     
 
-    <title>Sea Snail Wiki</title>
+    <title>Sea Snail Wiki V2</title>
   </head>
   <body>
-<!--NAVBAR-->
-    <header class="mb-5">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+    <!--NAVBAR-->
+    <header class="mb-5" id="nav">
 
-                <a class="navbar-brand" href="#home">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Wikipedia-W-visual-balanced.svg" alt="Wikipedia-logo" class="img-fluid" id="wiki-img">
-                </a>
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand d-lg-none" href="#home"><img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Wikipedia-W-visual-balanced.svg" alt="Wikipedia-logo" class="img-fluid" id="wiki-img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
 
-              <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto flex-nowrap">
-
-                  <li class="nav-item mx-3 px-3">
-                    <a class="nav-link active" aria-current="page" href="#">Version 2</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sea-snail-index.html">Version 1</a>
                   </li>
 
-                  <li class="nav-item mx-3 px-3">
-                    <a class="nav-link" href="#">Version 3</a>
+                  <li class="nav-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Wikipedia-W-visual-balanced.svg" alt="wiki-logo" class="img-fluid d-sm-none d-lg-block" id="wiki-img">
                   </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="sea-snail-v3.html">Version 3</a>
+                  </li>
+
                 </ul>
               </div>
             </div>
           </nav>
+        
     </header>
 
-    <main>
-<!--HERO IMG-->
-      <section class="py-3 py-sm-5 px-5 mb-5 d-flex align-items-end justify-content-end" id="hero-img">
-
-        <div class="card mx-5 d-none d-lg-block" style="width:35rem">
-          <div class="card-body bg-info bg-opacity-50">
-            <h1 class="card-title display-3"id="hero-title">Sea Snails</h1>
-            <h4 class="card-subtitle mb-2 text-success">Sea Snail</h4>
-            <p class="card-text fs-5">Marine Gastropod Molluscs, freshwater or marine, and some living at the high tide level  </p>
-            <a href="#" class="card-link fs-6 text-success">View Snails 2</a>
-            <a href="#" class="card-link fs-6 text-success">View Snails 3</a>
-          </div>
+    <main class="bg-primary">
+      
+    <!--Hero IMG-->
+        <section class="py-3 py-sm-5 px-5" id="hero-img">
+            <div class="container" id="hero-card">
+                <div class="row bg-light bg-opacity-75 d-none d-lg-block" style="width: 30vw;">
+                    <div class="col" id="hero-text">
+                        <h1 class="display-3" id="hero-title">Sea Snails</h1>
+                        <h4 class="mb-2">The Sea Snail</h4>
+                        <p class="fs-5">Marine Gastropod Molluscs <br> Freshwater or Marine</p>
+                        <a href="sea-snail-index.html" target="_blank" >View Snails 1</a>
+                        <a href="sea-snail-v3.html" target="_blank" >View Snails 3</a>
+                    </div>
+                </div>
+            </div>
+          </section>     
+    <section class="container-fluid mx-auto px-5 bg-light w-75">
+    <!--HERO CARD-->
+     <section class="container d-lg-none mx-auto">
+      <div class="row py-3">
+        <div class="col">
+          <h1 id="hero-title" class="display-5 text-dark">Sea Snails</h1>
+          <h4 class="subtitle mb-2 text-success">Sea Snail</h4>
+          <p class="text-dark fs-5">Marine Gastropod Molluscs, freshwater or marine, and some living at the high tide level </p>
+          <a href="#" class="link fs-6 text-success">View Snails 2</a>
+          <a href="#" class="link fs-6 text-success">View Snails 3</a>
         </div>
-      </section>
-<!--HERO CARD-->
-      <section class="container d-flex justify-content-start d-lg-none mx-auto px-5 bg-info bg-opacity-50">
-        <div class="row my-3">
-          <div class="col-10 col-md-8">
-            <h1 id="hero-title" class="display-2 text-dark">Sea Snails</h1>
-            <h4 class="subtitle mb-2 text-success">Sea Snail</h4>
-            <p class="text-dark fs-4">Marine Gastropod Molluscs, freshwater or marine, and some living at the high tide level </p>
-            <a href="#" class="link fs-6 text-success">View Snails 2</a>
-            <a href="#" class="link fs-6 text-success">View Snails 3</a>
-          </div>
-        </div>
-      </section>
-<!--BODY COPY-->
-      <section class="container-fluid mt-3 mx-auto px-5">
-        <div class="row row-cols-1 row-cols-lg-2">
-          <div class="col col-lg-7 px-5">
+      </div>
+    </section>
+        <!--Body Copy-->
+        <div class="row row-cols-1 py-5">
+          <div class="col">
             <h5>Defining the Sea Snail</h5>
             <p>Determining whether some gastropods should be called sea snails is not always easy. Some species that live in brackish water (such as certain neritids) can be listed as either freshwater snails or marine snails, and some species that live at or just above the high tide level (for example species in the genus Truncatella) are sometimes considered to be sea snails and sometimes listed as land snails. </p>
 
-            <img src="https://i.natgeofe.com/n/a805ccd3-727d-43a8-a527-2629bcdc5b21/001_0162468-MON_square.jpg" alt="sea-snail-1" class="img-fluid d-sm-block d-lg-none my-5 px-2 pe-3">
+            <img src="https://i.natgeofe.com/n/a805ccd3-727d-43a8-a527-2629bcdc5b21/001_0162468-MON_square.jpg" alt="sea-snail-1" class="img-fluid my-5 px-2 pe-3" style="width: 580px;">
 
             <h5>Anatomy of the Snail</h5>
             <p>Sea snails are a very large group of animals and a very diverse one. Most snails that live in salt water respire using a gill or gills; a few species, though, have a lung, are intertidal, and are active only at low tide when they can move around in the air. These air-breathing species include false limpets in the family Siphonariidae and another group of false limpets in the family Trimusculidae.
             <br><br>
             Many, but not all sea snails have an operculum.</p>
 
-            <img src="https://preview.redd.it/64zrjt1615001.jpg?auto=webp&s=e2a621efd910dcdd0b64eb747a3d328de7eca7be" alt="blue-snail" class="img-fluid d-sm-block d-lg-none my-5 px-2 pe-3">
+            <img src="https://preview.redd.it/64zrjt1615001.jpg?auto=webp&s=e2a621efd910dcdd0b64eb747a3d328de7eca7be" alt="blue-snail" class="img-fluid my-5 px-2 pe-3">
 
             <h6>Shell</h6>
             <p>The shells of most species of sea snails are spirally coiled. Some, though, have conical shells, and these are often referred to by the common name of limpets. In one unusual family (Juliidae), the shell of the snail has become two hinged plates closely resembling those of a bivalve; this family is sometimes called the "bivalved gastropods".
@@ -103,7 +111,7 @@
 
             <h5>Uses</h5>
 
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/84429079/large.jpg" alt="beige-snail" class="img-fluid d-sm-block d-lg-none my-5 px-2 pe-3">
+            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/84429079/large.jpg" alt="beige-snail" class="img-fluid my-5 px-2 pe-3" style="width: 580px;">
           
             <h6>By humans</h6>
 
@@ -118,22 +126,17 @@
             <p>The shells of sea snails are used for protection by many kinds of hermit crabs. A hermit crab carries the shell by grasping the central columella of the shell using claspers on the tip of its abdomen. </p>
 
           </div>
-          <div class="col col-lg-5">
-            <img src="https://i.natgeofe.com/n/a805ccd3-727d-43a8-a527-2629bcdc5b21/001_0162468-MON_square.jpg" alt="red-snail" class="img-fluid  d-none d-lg-block mb-3 px-2 pe-3" style="width: 577px;">
-            <img src="https://preview.redd.it/64zrjt1615001.jpg?auto=webp&s=e2a621efd910dcdd0b64eb747a3d328de7eca7be" alt="blue-snail" class="img-fluid d-none d-lg-block mb-3 px-2 pe-3">
-            <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/84429079/large.jpg" alt="beige-snail" class="img-fluid d-none d-lg-block mb-3 px-2 pe-3" style="width: 577px;">
-          </div>
-        </div>
-      </section>
-
-      <section class="container px-5 mt-5" id="see-cards">
+    </section>
+    <!--CARDS-->
+    <section id="see-also" class="bg-warning py-3">
+      <div class="container px-5 mt-5" id="see-cards">
       <h3>See Also</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
           <div class="col">
               <div class="card my-3">
                   <img src="https://cdn.shopify.com/s/files/1/1163/2672/products/Albino_Mystery_Snail_4.jpg?v=1568756526" class="card-img-top img-fluid" alt="albino-snail">
                   <div class="card-body">
-                    <h4 class="card-title">Freshwater Snail</h4>
+                    <h5 class="card-title">Freshwater Snail</h5>
                     <p class="card-text">Freshwater snails are gastropod mollusks which live in fresh water. There are many different families.</p>
                     <a href="https://en.wikipedia.org/wiki/Freshwater_snail" target="_blank" class="btn btn-primary">Learn More</a>
                   </div>
@@ -143,7 +146,7 @@
               <div class="card my-3">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Samsoncj_snail_07.jpg" class="card-img-top img-fluid" alt="samsoncj-snail">
                   <div class="card-body">
-                    <h4 class="card-title">Land Snail</h4>
+                    <h5 class="card-title">Land Snail</h5>
                     <p class="card-text">A land snail is any of the numerous species of snail that live on land, as opposed to the sea snails and freshwater snails.</p>
                     <a href="https://en.wikipedia.org/wiki/Land_snail" target="_blank" class="btn btn-primary">Learn More</a>
                   </div>
@@ -153,8 +156,8 @@
               <div class="card my-3">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Nembrotha_aurea_B.jpg" class="card-img-top img-fluid" alt="nembrotha-snail">
                   <div class="card-body">
-                    <h4 class="card-title">Sea Slug</h4>
-                    <p class="card-text">Sea slug is a common name for some marine invertebrates with varying levels of resemblance to terrestrial slugs.</p>
+                    <h5 class="card-title">Sea Slug</h5>
+                    <p class="card-text">Common name for some marine invertebrates with varying levels of resemblance to terrestrial slugs.</p>
                     <a href="https://en.wikipedia.org/wiki/Sea_slug" target="_blank" class="btn btn-primary">Learn More</a>
                   </div>
               </div>
@@ -163,14 +166,14 @@
             <div class="card my-3">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bielzia_coerulans_BM3.jpg/2560px-Bielzia_coerulans_BM3.jpg" class="card-img-top img-fluid" alt="nembrotha-snail">
                 <div class="card-body">
-                  <h4 class="card-title">Terrestrial Mollusc</h4>
-                  <p class="card-text">Terrestrial molluscs or land molluscs are an ecological group that includes all molluscs that live on land in contrast to freshwater and marine molluscs. </p>
+                  <h6 class="card-title">Terrestrial Mollusc</h6>
+                  <p class="card-text">Terrestrial molluscs are an ecological group that includes all molluscs that live on land in contrast to freshwater and marine. </p>
                   <a href="https://en.wikipedia.org/wiki/Terrestrial_mollusc" target="_blank" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
         </div>
-      </section>
-
+      </div>
+    </section>
     </main>
 
     <footer></footer>
