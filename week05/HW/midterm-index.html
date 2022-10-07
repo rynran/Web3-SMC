@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>Midterm Page Structure</title>
+
+    <link rel="stylesheet" href="midterm-stylesheet.css">
+
+  </head>
+  <body>
+    <header class="mb-5" id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler collapsed justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <i class="bi bi-search d-flex justify-content-start px-4 d-none d-lg-block"></i>
+          <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+          <!--MENU MOBILE-->
+            <ul class="navbar-nav d-lg-none mt-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item" href="products.html">All</a></li>
+                  <li><a class="dropdown-item" href="#">New</a></li>
+                  <li><a class="dropdown-item" href="#">On Sale</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          <!--MENU MD SIZE+-->
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item" href="products.html">All</a></li>
+                  <li><a class="dropdown-item" href="#">New</a></li>
+                  <li><a class="dropdown-item" href="#">On Sale</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#home">
+                 <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="alogo" class="img-fluid d-none d-lg-block" id="alogo"> 
+                </a>
+              </li>
+              <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item" href="#about">Our Story</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a href="checkout.html">
+            <i class="bi bi-cart d-flex justify-content-end d-none d-lg-block px-4 link-dark"></i>
+          </a>
+          <a class="navbar-brand d-lg-none mx-auto" href="#home">
+            <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="alogo" class="img-fluid mx-auto" id="alogo"> 
+          </a>
+        <!--ICONS MOBILE-->
+          <div class="d-flex justify-content-end">
+          <i class="bi bi-search d-flex d-sm-block d-lg-none px-3"></i>
+          <a href="checkout.html">
+           <i class="bi bi-cart d-flex d-sm-block d-lg-none px-3 link-dark"></i> 
+          </a>
+          
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+<!--CAROUSEL-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+<!--BESTSELLER SECTION-->
+          <section class="container position-relative pt-3 pt-lg-0 pb-5 px-3 mt-lg-n10">
+            <div class="card px-lg-2 border-0 shadow-lg">
+              <div class="card-body px-4 pt-5 pb-4">
+                <h2 class="h3 text-center">Best Sellers</h2>
+                <p class="text-muted text-center">We hand-pick some of the best items from our collection</p>
+              </div>
+          
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" class="card-img-top" alt="kitty">
+                            <div class="card-body row">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="col col-9">
+                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="col col-3 d-flex align-items-end justify-content-end">
+                                  <h6 class="btn-primary-outline">$0.00</h6>
+                                </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" class="card-img-top" alt="kitty">
+                            <div class="card-body row">
+                                <h5 class="card-title">Card title</h5>
+                                <div class="col col-9">
+                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="col col-3 d-flex align-items-end justify-content-end">
+                                  <h6 class="btn-primary-outline">$0.00</h6>
+                                </div>
+                                
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" class="card-img-top" alt="kitty">
+                            <div class="card-body row">
+                              <h5 class="card-title">Card title</h5>
+                              <div class="col col-9">
+                                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                              <div class="col col-3 d-flex align-items-end justify-content-end">
+                                <h6 class="btn-primary-outline">$0.00</h6>
+                              </div>
+                              
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+             <a href="products.html" class="d-flex justify-content-end align-items-center my-3 mx-3">
+              <button type="button" class="btn link-dark">View More</button>          
+              <i class="bi bi-arrow-right-circle text-dark"></i>  
+            </a>   
+          </section>
+<!--ABOUT SECTION-->
+          <section class="container my-5"id="about">
+            <h3 class="text-center">About</h3>
+              <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center py-5 mx-auto">
+                  <div class="col d-flex justify-content-center">
+                    <img src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=" alt="placeholder" class="img-fluid rounded-circle" style="max-width: 75%;">
+                  </div>
+                  <div class="col pt-5">
+                    <h4>Title by Sub</h4>
+                    <p>Fenty Beauty (stylized as FEИTY BEAUTY) is a cosmetics brand by Rihanna, that was launched on September 8, 2017. Popular for its broad inclusivity across various skin tones, its Pro Filt'R foundation became high-demand upon first release. The original foundation launch included 40 shades, and has since expanded to 50. The inclusion of Fenty Beauty concealer includes 50 shades, offering a wide variety for all skin types.</p>
+                </div>
+              </div>
+          </section>
+    </main>
+<!--FOOTER-->
+  <footer class="container border-top">
+    <div class="row row-cols-1 row-cols-md-2 mt-5">
+        <div class="col d-flex justify-content-center">
+            <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="alogo" class="img-fluid" style="max-height: 75%;">
+        </div>
+        <div class="col accordion" id="accordionExample">
+            <div class="accordion-item border-0">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Contact Us
+                </button></h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <a href="mailto:help@yourservice.com" class="my-3 link-dark">help@yourservice.com</a>
+                    <h6 class="my-3"><a href="contact.html" class="link-dark">Send us a message!</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col accordion-item border-0">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      About
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="FAQ.html" class="nav-link link-dark">FAQ</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link link-dark">Blog</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="col accordion-item border-0">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Wireframe Inspo
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="https://noissue.co/" target="_blank" class="nav-link link-dark">Noissue</a></li>
+                        <li class="nav-item"><a href="https://glitty.co/" target="_blank" class="nav-link link-dark">Glitty</a></li>
+                        <li class="nav-item"><a href="https://kookapi.com/blogs/news" target="_blank" class="nav-link link-dark">Kookapi</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        <div class="d-flex justify-content-center my-5">
+            <i class="bi bi-facebook mx-3" style="font-size: 2rem;"></i>
+            <i class="bi bi-instagram mx-3" style="font-size: 2rem;"></i>
+            <i class="bi bi-pinterest mx-3" style="font-size: 2rem;"></i>
+        </div>
+    </div>
+  </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
