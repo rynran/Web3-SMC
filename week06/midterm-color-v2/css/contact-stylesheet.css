@@ -1,0 +1,52 @@
+:root{
+    --skyblue: #b4e1ff;
+    --paleblue: #85c7e3;
+    --beige: #ffdac5;
+    --orange: #ffad69;
+    --yellow: #ffc061;
+}
+*{
+    font-family: quicksand,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .5px;
+}
+#hero-img{
+    background-image: url(../Images/pin-bag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 35vw;
+}
+#hero-img .card{
+    background-color: var(--beige);
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--skyblue);
+}
+.navbar i{
+    color: var(--darkteal);
+}
+.bg-light{
+    background-color: var(--beige) !important;
+}
+.btn-primary{
+    background-color: var(--orange);
+    border: none;
+}
+footer{ 
+    background-color: var(--orange) !important;;
+}
+footer .accordion-button{
+    background-color: var(--orange);
+}
+footer .accordion-item{
+    padding: 2vw;
+    background-color: var(--orange);
+}
+h2,h3,h4,h5{
+    font-family: 'Arima Madurai', cursive;
+}

@@ -1,0 +1,48 @@
+:root{
+    --grey: #efe9e7;
+    --bluegray: #dae0f2;
+    --pink: #f9cff2;
+    --berry: #52154e;
+    --navy: #111344;
+}
+*{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: .5px;
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--bluegray);
+}
+.navbar i{
+    color: var(--navy);
+}
+#dropdown08{
+    color: var(--navy);
+}
+.bg-dark{
+    background-color: var(--grey) !important;
+}
+.card{
+    border: none;
+}
+.btn-primary-outline{
+    padding: .5rem;
+    background-color: var(--palepink);
+}
+footer{ 
+    background-color: var(--grey) !important;;
+}
+footer i{
+    color: var(--white);
+}
+.accordion-button{
+    background-color: var(--teal);
+}
+.accordion-item{
+    background-color: var(--teal);
+}
+h2,h3,h4,h5{
+    font-family: 'Righteous', cursive;
+}

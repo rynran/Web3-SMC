@@ -1,0 +1,51 @@
+:root{
+    --darkteal: #006d77;
+    --teal: #83c5b3;
+    --white: #edf6f9;
+    --palepink: #ffddd2;
+    --peach: #e29578;
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--palepink);
+}
+.navbar i{
+    color: var(--darkteal);
+}
+.nav-item a{
+    color: var(--darkteal);
+}
+.bg-dark{
+    background-color: var(--white) !important;
+}
+.card{
+    border: none;
+}
+.btn-primary-outline{
+    padding: .5rem;
+    background-color: var(--palepink);
+}
+footer{ 
+    background-color: var(--teal) !important;;
+}
+footer i{
+    color: var(--white);
+}
+.accordion-button{
+    background-color: var(--teal);
+}
+.accordion-item{
+    background-color: var(--teal);
+}
+h2,h3,h4,h5{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: .75px;
+}
+p{
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+}

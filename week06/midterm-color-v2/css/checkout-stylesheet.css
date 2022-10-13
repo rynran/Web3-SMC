@@ -1,0 +1,33 @@
+:root{
+    --skyblue: #b4e1ff;
+    --paleblue: #85c7e3;
+    --beige: #ffdac5;
+    --orange: #ffad69;
+    --yellow: #ffc061;
+}
+*{
+    font-family: quicksand,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .5px;
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--skyblue);
+}
+.bg-light{
+    background-color: var(--beige) !important;
+}
+.btn-primary{
+    background-color: var(--orange);
+    border: none;
+}
+.form-select:disabled {
+    background-color: var(--beige);
+    border: none;
+}
+h2,h3,h4,h5, select{
+    font-family: 'Arima Madurai', cursive;
+}

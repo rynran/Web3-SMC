@@ -1,0 +1,55 @@
+:root{
+    --grey: #efe9e7;
+    --bluegray: #dae0f2;
+    --pink: #f9cff2;
+    --berry: #52154e;
+    --navy: #111344;
+}
+*{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: .5px;
+}
+#hero-img{
+    background-image: url(../Images/pin-bag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 35vw;
+}
+#hero-img .card{
+    background-color: var(--grey);
+}
+#hero-img h1, p{
+    color: var(--navy);
+}
+#hero-img a{
+    color: var(--berry);
+}
+#hero-img .lead{
+    color: var(--berry);
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--bluegray);
+}
+#dropdown08{
+    color: var(--navy);
+}
+footer{ 
+    background-color: var(--grey) !important;;
+}
+footer i{
+    color: var(--navy);
+}
+footer .accordion-button{
+    background-color: var(--grey);
+}
+footer .accordion-item{
+    padding: 2vw;
+    background-color: var(--grey);
+}
+h2,h3,h4,h5{
+    font-family: 'Righteous', cursive;
+}

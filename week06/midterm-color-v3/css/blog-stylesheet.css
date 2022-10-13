@@ -1,0 +1,82 @@
+:root{
+    --darkteal: #006d77;
+    --teal: #83c5b3;
+    --white: #edf6f9;
+    --palepink: #ffddd2;
+    --peach: #e29578;
+}
+#hero-img{
+    background-image: url(../Images/pin-bag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 35vw;
+}
+#hero-img .card{
+    background-color: var(--white);
+}
+#hero-img h5, p{
+    color: var(--darkteal);
+}
+#hero-img a{
+    color: var(--white);
+}
+#hero-img .lead{
+    color: var(--darkteal);
+}
+#alogo{
+    width: 100px;
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--palepink);
+}
+.navbar i{
+    color: var(--darkteal);
+}
+.nav-item a{
+    color: var(--darkteal);
+}
+#dropdown08{
+    color: var(--navy);
+}
+.bg-dark{
+    background-color: var(--white) !important;
+}
+.card-text{
+    color: var(--darkteal);
+}
+.card a{
+    text-decoration: none;
+}
+.link-dark{
+    color: var(--darkteal);
+}
+i{
+    color: var(--darkteal);
+}
+footer{ 
+    background-color: var(--teal) !important;;
+}
+footer i{
+    color: var(--white);
+}
+footer .accordion-button{
+    background-color: var(--teal);
+}
+footer .accordion-item{
+    padding: 2vw;
+    background-color: var(--teal);
+}
+h2,h3,h4,h5{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: .75px;
+}
+p{
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+}
