@@ -1,0 +1,120 @@
+:root{
+    --grey: #efe9e7;
+    --bluegray: #dae0f2;
+    --pink: #D0ADDC;
+    --berry: #6248A8;
+    --orchid: #AC47AA;
+    --gold: #f9af42;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .5px;
+}
+#alogo{
+    width: 100px;
+}
+.alert{
+    background: var(--grey);
+}
+.navbar{
+    background-color: var(--bluegray);
+}
+#dropdown08{
+    color: var(--navy);
+}
+.bg-dark{
+    background-color: var(--grey) !important;
+}
+.card{
+    border: none;
+}
+.btn-primary-outline{
+    padding: .5rem;
+    background-color: var(--palepink);
+}
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: var(--orchid) !important;
+}
+footer{ 
+    background-color: var(--grey) !important;
+    bottom: 0;
+}
+footer i{
+    color: var(--orchid);
+}
+.accordion-button{
+    background-color: var(--teal);
+}
+.accordion-item{
+    background-color: var(--teal);
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+.popup-screen{
+    z-index: 999999;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: 0.5s ease;
+    transition-property: visibility;
+  }
+  
+  .popup-screen.active{
+    visibility: visible;
+  }
+  
+  .popup-box{
+    position: relative;
+    background: white;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+    transform: scale(0);
+    transition: 0.5s ease;
+    transition-property: transform;
+  }
+  
+  .popup-screen.active .popup-box{
+    transform: scale(1);
+  }
+  
+  .popup-box h2{
+    font-size: 2.1em;
+    font-weight: 800;
+  }
+  .popup-box .btn{
+    color: #fff;
+    background: var(--berry);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .close-btn{
+    position: absolute;
+    font-size: 1em;
+    top: 0;
+    right: 0;
+    margin: 2%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    transition-property: opacity;
+    background: none;
+    border: none;
+  }
+  
+  .close-btn:hover{
+    opacity: 1;
+  }

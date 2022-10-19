@@ -1,0 +1,74 @@
+:root{
+    --grey: #efe9e7;
+    --bluegray: #dae0f2;
+    --pink: #D0ADDC;
+    --berry: #6248A8;
+    --orchid: #AC47AA;
+    --gold: #f9af42;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .5px;
+}
+#hero-img{
+    background-image: url(../Images/disney-collection.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 35vw;
+}
+#hero-img .card{
+    background-color: var(--pink);
+}
+#hero-img h1, p{
+    color: var(--navy);
+}
+#hero-img a{
+    color: var(--berry);
+}
+#hero-img .lead{
+    color: var(--grey);
+}
+#alogo{
+    width: 100px;
+}
+.navbar{
+    background-color: var(--bluegray);
+}
+#dropdown08{
+    color: var(--navy);
+}
+.btn-outline-primary {
+    color: var(--berry);
+    border-color: var(--berry);
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--berry);
+    border-color: var(--berry);
+}
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: var(--orchid) !important;
+}
+footer{ 
+    background-color: var(--grey) !important;;
+}
+footer i{
+    color: var(--orchid);
+}
+footer .accordion-button{
+    background-color: var(--grey);
+}
+footer .accordion-item{
+    padding: 2vw;
+    background-color: var(--grey);
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+h2,h3,h4,h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
