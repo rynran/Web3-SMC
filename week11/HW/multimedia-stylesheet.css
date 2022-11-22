@@ -1,0 +1,30 @@
+*{
+    font-family: citrus-gothic-solid,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.text-light {
+  --bs-text-opacity: 1;
+  color: #DDBB70 !important;
+}
+.text-light:hover{
+    font-family: citrus-gothic-rough,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #BF0F0F !important;
+}
+.display-3 {
+    font-size: 3.5vw;
+  }
+
+  .fade-in {
+	animation-name: fade-in;
+	animation-duration: 2.25s;
+	animation-fill-mode: backwards;
+}
+@keyframes fade-in {
+    0%		{opacity: 0;}
+    100%	{opacity: 1;}
+}
