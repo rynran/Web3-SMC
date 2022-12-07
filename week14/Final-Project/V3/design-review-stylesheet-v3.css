@@ -1,0 +1,138 @@
+/*======= CSS variables =======*/
+:root{
+    --berry: #a6294b;
+    --navy: #111826;
+    --gray: #a5a6a1;
+    --white: #f2f2f0;
+    --brown: #733e32;
+}
+body{
+    background-color: var(--gray);
+    font-family: serenity, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--navy); 
+}
+header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .15em 2.5em;
+    transition: .6s;
+}
+header.sticky{
+    background: var(--berry);
+    padding: .5em 1em;
+    box-shadow: 0 0 7px var(--brown);
+}
+#navlogo{
+    padding: .25em;
+    max-height:75px
+}
+header .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .menu a{
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--navy);
+    margin: 0 3em;
+    padding: 1em 2em;
+}
+header .menu a:hover{
+    color: var(--white);
+    transition: 0.3s;
+    transform: scale(1.12);
+}
+header .btn{
+    color: var(--gray);
+    display: none;
+}
+h1{
+    font-family: scotch-modern, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@media (max-width:1060px){
+    header .btn{
+        display: block;
+    }
+    header .menu{
+        position: fixed;
+        background: var(--berry);
+        flex-direction: column;
+        min-width: 45%;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        transition: 0.5s;
+        transition-property: right;
+    }
+
+    header .menu.active{
+        right: 0;
+    }
+
+    header .menu .close-btn{
+        position: absolute;
+        top: 0;
+        margin-left: 30%;    
+        padding: .75em;
+    }
+    header .menu a{
+        display: block;
+        font-size: 1.5rem;
+        margin: 1em;
+    }
+}
+
+.btn-primary, .btn-outline-primary{
+    color: var(--white);
+    background-color: var(--berry);
+    border: none;
+}
+.btn-primary:hover, .btn-outline-primary:hover{
+    color: var(--white);
+    background-color: var(--navy);
+    border: none;
+}
+.bg-body {
+    background-color: var(--navy) !important;
+    box-shadow: 0 0 10px;
+  }
+
+.read-more{
+    color: var(--berry) !important;
+    font-family: scotch-modern, serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.lorem{
+    color: var(--russett) !important;
+    font-size: 1.5rem;
+}
+
+a{
+ text-decoration: none;   
+ color: var(--white);
+}
+
+footer{
+    color: var(--white);
+    background-color: var(--navy);
+    height: 300px;
+}
+#footer-row{
+    text-align: center;
+    padding: 10% 0 0;
+}
