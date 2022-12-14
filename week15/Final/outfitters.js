@@ -39,6 +39,7 @@ function reveal(){
 }
 
 //carousel target
+
 $('.carousel').on('slid.bs.carousel', function () {
     var carouselData = $(this).data('bs.carousel');
     var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
@@ -48,3 +49,10 @@ $('.carousel').on('slid.bs.carousel', function () {
       .eq(currentIndex)
       .addClass('active-p');
   });
+
+  //highlights target
+
+function changeImage(fileName) {
+    let img = document.querySelector(".hlImg");
+    img.setAttribute("src", fileName);
+}

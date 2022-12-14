@@ -96,6 +96,10 @@ h1{
     }
 }
 /* SPLASH */
+
+#fadeIn{
+    animation: fadeIn 5s forwards;
+}
 .splash-img{
     width: 100%;
     position: relative;
@@ -117,11 +121,16 @@ h1{
 #splash-row2{
     padding-top: 10% !important;
 }
+#ffSplash{
+    animation: ffSplash 1s forwards;
+}
 #splash-is{
-    padding-left: 15%;
+    padding-left: 5%;
+    animation: splashIs 2.5s forwards;
 }
 #splash-out{
     padding-right: 8%;
+    animation: splashOut 2.5s forwards;
 }
 #splash-txt-mobile{
     color: var(--teal);
@@ -143,7 +152,42 @@ h1{
 
 #intro-deets p{
     color: var(--tan);
+
 }
+/* SPLASH ANIMATION*/
+
+@keyframes fadeIn{
+0% {opacity: 0;}
+25% {opacity: 1;}
+}
+
+@keyframes ffSplash {
+    0%{
+        margin-top: -100vw;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+@keyframes splashIs {
+    0% {
+        margin-top: -100%;
+      }
+    100% {
+        margin-top: 0;
+      }
+}
+@keyframes splashOut {
+    0% {
+        margin-top: -100%;
+      }
+      100% {
+        margin-top: 0;
+      }
+}
+
+/* About */
 .read-more{
     color: var(--brown) !important;
     font-family: condor,sans-serif;
@@ -172,6 +216,16 @@ h1{
 .lorem{
     color: var(--tan) !important;
     font-size: 1.25rem;
+}
+.btn-link {
+    font-weight: 400;
+    color: var(--teal);
+    text-decoration: none;
+}
+.btn-link:hover{
+    color: var(--brown);
+    transition: 0.3s;
+    transform: scale(1.12);
 }
 a{
  text-decoration: none;   
